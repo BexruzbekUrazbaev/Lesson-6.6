@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .title {
+            text-align: center;
+            padding: 10px;
+            background-color: antiquewhite;
+        }
+
+        .cards {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .card {
+            border: 1px solid rgb(9, 255, 0);
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .btnWrapper {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .btnCreater {
+            width: 440px;
+            padding: 5px 0;
+            border: 1px solid rgb(9, 255, 0);
+            cursor: pointer;
+        }
+        .btnCreater:hover{
+            background-color: rgb(9, 255, 0);
+            border: 1px solid grey;
+            color: white;
+            font-style: bold;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="title">Random user yaratish uchun button ni bosing.</h1>
+    <div class="cards">
+        <div class="card">
+            <h2>Name: <span class="name">Bunyodbek</span></h2>
+            <h2>Last: <span class="lastN"></span></h2>
+            <h2>Email: <span class="email"></span></h2>
+            <h3>Company: <span class="company">Mars IT School</span></h3>
+        </div>
+    </div>
+    <div class="btnWrapper">
+        <button class="btnCreater">Create user</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
